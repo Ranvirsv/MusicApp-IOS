@@ -36,6 +36,14 @@ The MusicApp project was developed using Xcode version 14. It includes various f
 ## Testing
 The MusicApp was primarily tested using the iOS Simulator provided by Xcode, with the iPhone SE and iPhone 14 Pro Max devices selected. The app was compiled with default compile settings in Xcode.
 
+## Contributing
+We welcome contributions to improve the Music App project. To contribute, please follow these steps:
+1. Fork this repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
+
 ## Contributors
 - Ranvir Singh Virk
 - [ss140](https://github.iu.edu/ss140)
