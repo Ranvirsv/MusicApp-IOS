@@ -34,7 +34,7 @@ The MusicApp project was developed using Xcode version 14. It includes various f
 - Playlists and external media controller features were not included due to technical limitations. Could be updated with newer version
 
 ## Testing
-The MusicApp was primarily tested using the iOS Simulator provided by Xcode, with the iPhone 13 Pro Max device selected. The app was compiled with default compile settings in Xcode.
+The MusicApp was primarily tested using the iOS Simulator provided by Xcode, with the iPhone SE and iPhone 14 Pro Max devices selected. The app was compiled with default compile settings in Xcode.
 
 ## Contributors
 - Ranvir Singh Virk
