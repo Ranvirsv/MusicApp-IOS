@@ -1,54 +1,43 @@
-C323 / Spring 2023, Final Project
+# Music App (iOS)
 
-Final-Project-README-C323-A03Team12
-Jonathon Mangan jonmanga@iu.edu
-Ranvir Virk rsvirk@iu.edu
-Sanmeet Singh ss140@iu.edu
+## Description
+This is a music player application developed for the C323 final project. The music player app offers a seamless and intuitive user experience through its three primary views: Home, Search, and Library. It provides features such as browsing and playing stored songs, dynamic search functionality, and managing user-generated playlists.
 
-Team12
+## Features
+- **Home View:** Allows users to navigate through their stored songs and select any one of them to begin playback.
+- **Search View:** Provides a powerful search functionality to search through the entire music library, including stored songs and playlists.
+- **Library View:** Offers a comprehensive overview of the user's music collection, listing user-generated playlists and imported albums.
 
-04/28/2023
-Team README File
-Interacting with the Final Project App
-The purpose of the MusicApp is to allow users to view a list of songs, play them, and mark 
-them as favorites. Upon launching the app, users will be taken to the song list screen,
-where they can view a list of songs that are available. Users can play a song by tapping 
-on it, and can also mark a song as a favorite by tapping on the heart icon next to the song
- title. The favorites screen can be accessed by tapping on the "Favorites" tab at the bottom 
- of the screen, which will display a list of all the songs that have been marked as favorites.
+## Technologies Used
+- **Core Data:** Used to store the user's music library data, including artist, album, and track information, as well as user-generated playlists.
+- **User Notifications:** Displays notifications to the user during playback, such as when a new track starts playing or when user interaction is required.
+- **Media Player:** Provides core audio playback functionality, including play, pause, skip, and rewind options, as well as fetching and displaying metadata about the currently playing track.
 
-Xcode Environment and Testing Hardware
-The MusicApp was compiled using Xcode version 14, with default compile settings. The app
- was tested using the iOS Simulator provided by Xcode, with the iPhone 13 Pro Max device
-  selected.
+## Getting Started
+To run the Music App project, follow these steps:
+1. Ensure you have Xcode version 14 or later installed.
+2. Clone the reop and open the project in Xcode.
+3. Configure the iOS Simulator or connect your testing hardware, works best with iPhone SE.
+4. Build and run the app on the simulator or your device.
 
-Completed Features, Functionalities, and Implementation Requirements
+## Usage
+Upon launching the app, users will be taken to the song list screen. From there:
+- Tap on a song to play it.
+- Tap on the heart icon next to a song title to mark it as a favorite.
+- Access the favorites screen by tapping on the "Favorites" tab at the bottom to view all marked favorite songs.
 
-Implemented in:
-PlayerViewController.swift
-Songs can be played using the AVFoundation framework as well as the UI notification framework, and sprite kit for album covers.
+## Development Details (Final Doc)
+The MusicApp project was developed using Xcode version 14. It includes various features and functionalities, including playing songs, marking favorites, and displaying album covers. The app has a polished user interface with a tab view controller and navigation controller. The home and search views allow users to browse and search for songs.
 
-Implemented in:
-PlayerViewController.swift
-Songs can be marked as favorites by tapping on the heart icon next to the song title. This is used for persistent storage
+### Changes Made from Original Design
+- The library view was not implemented as initially planned.
+- Playlists and external media controller features were not included due to technical limitations. Could be updated with newer version
 
-Implemented in:
-SongTableViewCell.swift
-How each song was displayed
+## Testing
+The MusicApp was primarily tested using the iOS Simulator provided by Xcode, with the iPhone 13 Pro Max device selected. The app was compiled with default compile settings in Xcode.
 
-Implemented in:
-SongModel.swift
-Model of how every song was stored
-
-
-Implemented in:
-Storyboard file (Main.storyboard)
-Assets.xcassets
-The app has a polished and consistent user interface design. Including a tab view controller and navigation controller. Also included a home view and search view. Home view displayed all the songs, and the search view allowed you to search for a given song.
-
-
-Changes Made from Original Design
-Earlier we had plans of adding a library view to it but then we didn't implement it. The info that would've gone in the library view would've been the liked songs but we were unable to finish having them displayed. The other part we wanted to include was a media controller outside of the app, but we weren't able to connect the Notification Center. We also did not make playlists. Playlists got excluded as the music was stored in one file, and making playlists would involve making many other folders.
-
-
+## Contributors
+- Ranvir Singh Virk
+- [ss140](https://github.iu.edu/ss140)
+- [Mangan, Jonathon](https://github.iu.edu/jonmanga)
 
