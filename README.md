@@ -1,7 +1,7 @@
 # Music App (iOS)
 
 ## Description
-This is a music player application developed for the C323 final project. The music player app offers a seamless and intuitive user experience through its three primary views: Home, Search, and Library. It provides features such as browsing and playing stored songs, dynamic search functionality, and managing user-generated playlists.
+The music player app offers a seamless and intuitive user experience through its three primary views: Home, Search, and Library. It provides features such as browsing and playing stored songs, dynamic search functionality, and managing user-generated playlists.
 
 ## Features
 - **Home View:** Allows users to navigate through their stored songs and select any one of them to begin playback.
